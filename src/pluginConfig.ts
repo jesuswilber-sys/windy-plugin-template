@@ -1,17 +1,14 @@
 import type { ExternalPluginConfig } from '@windy/interfaces';
 
 const config: ExternalPluginConfig = {
-    name: 'windy-plugin-my-plugin',
+    name: 'windy-plugin-hail-risk',
     version: '0.1.0',
-    icon: '🔌',
-    title: 'This is my first plugin',
-    description: 'This is my first plugin.',
-    author: 'John Doe (optional company name)',
-    repository: 'https://github.com/windycom/windy-plugin-template',
-    desktopUI: 'rhpane',
+    icon: '⛈️',
+    title: 'Estimador de Riesgo de Granizo',
+    description: 'Calcula el potencial de granizo severo a partir de CAPE e inestabilidad atmosférica',
+    author: 'Tu Nombre',
+    desktopUI: 'rhpane', // Panel lateral derecho
     mobileUI: 'fullscreen',
-    routerPath: '/my-plugin',
-    private: true,
 };
 
 export default config;
